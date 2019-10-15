@@ -1,0 +1,186 @@
+---
+title: "Computing for the Social Sciences"
+author: "[MACS 30500](https://cfss.uchicago.edu) <br /> University of Chicago"
+output: rcfss::xaringan
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(cache = TRUE,
+                      fig.retina = 2, fig.width = 12)
+
+library(tidyverse)
+library(broom)
+
+set.seed(1234)
+theme_set(theme_minimal(base_size = rcfss::base_size))
+```
+
+# Primer on the course
+
+#### Origins
+
+* Pre-2016
+* Adapted from Jenny Bryan's [Stat 545](https://stat545.com/)
+
+--
+
+#### Core objectives
+
+* Fulfill programming requirement for certificate in computational social science
+* Introduce graduate/undergraduate students to programming techniques essential for CSS
+* Develop open-source resources for R learners
+* Extend my R capabilities for new packages/methods (e.g. `blogdown`, `sf`, `tidytext`)
+
+--
+
+#### Current activity
+
+* Two sections in fall/spring quarters
+* 60 students per section
+* [Summer institute in social research methods](https://voices.uchicago.edu/socscisummermethods/)
+* 100K+ users of the course site in the past year
+
+---
+
+# Major topics
+
+## First half
+
+* Elementary programming techniques (e.g. loops, conditional statements, functions)
+* Writing reusable, interpretable code
+* Debugging programs
+* Obtaining, importing, and munging data from a variety of sources
+* Visualizing information
+* Generating reproducible research
+
+--
+
+## Second half
+
+* Hodgepodge of applications in social science
+* Performing statistical analysis
+* Obtaining data via APIs and web scraping
+* Text analysis
+* Geospatial visualizations
+* Shiny applications
+
+---
+
+# Who is this class for?
+
+### Jeri
+
+.pull-left[
+
+![Stock photo of Jeri](https://cfss.uchicago.edu/img/stock-photos/000022.jpg)
+
+]
+
+.pull-right[
+
+* PhD student in sociology
+* Feels comfortable with regression and econometric methods in Stata
+* Will be analyzing a large-scale dataset for her dissertation
+* Seeks a reproducible workflow to manage all her exploratory and confirmatory analysis
+
+]
+
+---
+
+# Who is this class for?
+
+### Ryan
+
+.pull-left[
+
+![Stock photo of Ryan](https://cfss.uchicago.edu/img/stock-photos/000284.jpg)
+
+]
+
+.pull-right[
+
+* Entering the [MAPSS program](https://mapss.uchicago.edu)
+* Hasn't taken a statistics class in five years
+* Expects to analyze a collection of published news articles 
+* Wants to understand code samples he finds online so he can repurpose them for his own work
+
+]
+
+---
+
+# Who is this class for?
+
+### Fernando
+
+.pull-left[
+
+![Stock photo of Fernando](https://cfss.uchicago.edu/img/stock-photos/000232.jpg)
+
+]
+
+.pull-right[
+
+* Third-year student in the College
+* Has taken MATH 15100 and 15200, plus the departmental methods course
+* Wants to work as a research assistant on a project exploring the onset of civil conflict
+* Needs to start contributing to a new research paper next quarter
+
+]
+
+---
+
+# Who is this class for?
+
+### Fang
+
+.pull-left[
+
+![Stock photo of Fang](https://cfss.uchicago.edu/img/stock-photos/000251.jpg)
+
+]
+
+.pull-right[
+
+* Born and raised in Shenzhen, China
+* Background in psychology, plans to apply for doctoral programs in marketing
+* Is going to run 300 experiments on Amazon MTurk in the next six months
+* Expects to take courses in machine learning and Bayesian statistics which require a background in R
+
+]
+
+---
+
+# Homework workflow
+
+.center[
+
+![:scale 70%](https://cfss.uchicago.edu/img/homework_workflow.png)
+
+]
+
+---
+
+# Course site
+
+> https://cfss.uchicago.edu
+
+---
+
+# Lessons learned
+
+* Everyone is capable of learning given sufficient resources
+* Set expectations high and (most) students rise to the challenge
+* As enrollment expands, automate where you can **if it is pedagogically sound**
+* Tidy or base R? Good question!
+
+
+
+
+
+
+
+
+
+
+
